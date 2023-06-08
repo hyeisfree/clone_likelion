@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="ex4.css" />
+  </head>
+  <body>
+    <div class="entire">
+      <h2 class="h2">My Todolist</h2>
+      <div class="todolist" id="todolist">
+        <input type="text" id="addValue" placeholder="할 일 추가하기" />
+        <input
+          type="button"
+          value="+"
+          class="btn"
+          id="button"
+          onclick="clickEvent();"
+        />
+      </div>
+      <div>
+        <ul id="addtodo" class="addtodo">
+          <li><div id="result"></div></li>
+        </ul>
+      </div>
+      <div class="clear">
+        <input
+          type="button"
+          value="Clear"
+          class="btn1"
+          id="button"
+          onclick="clear();"
+        />
+      </div>
+    </div>
+    <script src="ex4.js"></script>
+  </body>
+</html>
